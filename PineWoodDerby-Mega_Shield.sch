@@ -1596,11 +1596,6 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="-2.54" y="1.27" size="0.4064" layer="25">&gt;Name</text>
 <text x="-2.032" y="-0.508" size="0.8128" layer="21" ratio="15">&gt;Value</text>
 </package>
-<package name="CREATIVE_COMMONS">
-<text x="-20.32" y="5.08" size="1.778" layer="27">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="27">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="11.43" y="0" size="1.778" layer="27">Designed by:</text>
-</package>
 <package name="CAP-PTH-SMALL">
 <wire x1="1.27" y1="0.635" x2="1.27" y2="-0.635" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="0" drill="0.7" diameter="1.651"/>
@@ -1957,11 +1952,6 @@ chip</description>
 <wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-<symbol name="CREATIVE_COMMONS">
-<text x="0" y="5.08" size="1.778" layer="95">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="0" y="2.54" size="1.778" layer="95">http://creativecommons.org/licenses/by-sa/3.0</text>
-<text x="0" y="0" size="1.778" layer="95">Design by:</text>
 </symbol>
 <symbol name="CAP">
 <wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
@@ -2592,18 +2582,6 @@ Basic schematic elements and footprints for 0603, 1206, and PTH 1/10th watt (sma
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="CREATIVE_COMMONS">
-<gates>
-<gate name="G$1" symbol="CREATIVE_COMMONS" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CREATIVE_COMMONS">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -4329,87 +4307,6 @@ SMT header is CONN-09042.</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Capacitors">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find resistors, capacitors, inductors, test points, jumper pads, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="CAP-PTH-SMALL-KIT">
-<description>&lt;h3&gt;CAP-PTH-SMALL-KIT&lt;/h3&gt;
-Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.com/products/8375) or 22pF caps (http://www.sparkfun.com/products/8571).&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.</description>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.254" layer="21"/>
-<wire x1="-2.667" y1="1.27" x2="2.667" y2="1.27" width="0.254" layer="21"/>
-<wire x1="2.667" y1="1.27" x2="2.667" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="2.667" y1="-1.27" x2="-2.667" y2="-1.27" width="0.254" layer="21"/>
-<wire x1="-2.667" y1="-1.27" x2="-2.667" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
-<pad name="2" x="1.397" y="0" drill="1.016" diameter="2.032" stop="no"/>
-<polygon width="0.127" layer="30">
-<vertex x="-1.4021" y="-0.9475" curve="-90"/>
-<vertex x="-2.357" y="-0.0178" curve="-90.011749"/>
-<vertex x="-1.4046" y="0.9576" curve="-90"/>
-<vertex x="-0.4546" y="-0.0204" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="-1.4046" y="-0.4395" curve="-90.012891"/>
-<vertex x="-1.8491" y="-0.0153" curve="-90"/>
-<vertex x="-1.4046" y="0.452" curve="-90"/>
-<vertex x="-0.9627" y="-0.0051" curve="-90.012967"/>
-</polygon>
-<polygon width="0.127" layer="30">
-<vertex x="1.397" y="-0.9475" curve="-90"/>
-<vertex x="0.4421" y="-0.0178" curve="-90.011749"/>
-<vertex x="1.3945" y="0.9576" curve="-90"/>
-<vertex x="2.3445" y="-0.0204" curve="-90.024193"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="1.3945" y="-0.4395" curve="-90.012891"/>
-<vertex x="0.95" y="-0.0153" curve="-90"/>
-<vertex x="1.3945" y="0.452" curve="-90"/>
-<vertex x="1.8364" y="-0.0051" curve="-90.012967"/>
-</polygon>
-</package>
-</packages>
-<symbols>
-<symbol name="CAP">
-<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="2.921" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.524" y="-2.159" size="1.778" layer="96">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
-<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0.1UF-50V-20%(PTH)" prefix="C" uservalue="yes">
-<description>CAP-08370</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="KIT-EZ" package="CAP-PTH-SMALL-KIT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08370" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4438,7 +4335,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="R3" library="SparkFun" deviceset="RESISTOR" device="PTH1" value="10k"/>
 <part name="GND1" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND2" library="SparkFun" deviceset="GND" device=""/>
-<part name="U$2" library="SparkFun" deviceset="CREATIVE_COMMONS" device=""/>
 <part name="CN1" library="SparkFun-Connectors" deviceset="RJ45-8" device="PTH">
 <attribute name="LABEL" value="Start Sensors"/>
 </part>
@@ -4497,23 +4393,15 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <part name="GND10" library="SparkFun" deviceset="GND" device=""/>
 <part name="SJ2" library="SparkFun" deviceset="SOLDERJUMPER" device="TRACE"/>
 <part name="C6" library="SparkFun" deviceset="CAP" device="0402-CAP" value="0.1uF"/>
-<part name="U1" library="SparkFun-DigitalIC" deviceset="MAX232" device="PTH"/>
-<part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1uF"/>
-<part name="C8" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1uF"/>
-<part name="C9" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1uF"/>
-<part name="C10" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1uF"/>
-<part name="C11" library="SparkFun-Capacitors" deviceset="0.1UF-50V-20%(PTH)" device="KIT-EZ" value="0.1uF"/>
-<part name="P+3" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="5V"/>
 <part name="P+5" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3"/>
 <part name="VIN" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="VIN"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="30.48" y="10.16" size="1.778" layer="97">Ryan Owens</text>
-<text x="256.54" y="215.9" size="2.54" layer="97">RS-232</text>
-<text x="195.58" y="215.9" size="2.54" layer="97">TTL/CMOS</text>
-<text x="220.98" y="271.78" size="2.54" layer="97">3.0V &lt; VCC &lt; 5.5V</text>
+<text x="248.92" y="50.8" size="2.54" layer="97">RS-232</text>
+<text x="187.96" y="50.8" size="2.54" layer="97">TTL/CMOS</text>
+<frame x1="0" y1="0" x2="317.5" y2="243.84" columns="8" rows="5" layer="91"/>
 </plain>
 <instances>
 <instance part="JP3" gate="G$1" x="86.36" y="177.8" rot="R90"/>
@@ -4540,7 +4428,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <instance part="R3" gate="G$1" x="93.98" y="149.86" rot="R90"/>
 <instance part="GND1" gate="1" x="101.6" y="121.92"/>
 <instance part="GND2" gate="1" x="182.88" y="99.06"/>
-<instance part="U$2" gate="G$1" x="12.7" y="10.16"/>
 <instance part="CN1" gate="G$1" x="129.54" y="43.18" rot="MR270">
 <attribute name="LABEL" x="137.16" y="35.56" size="1.778" layer="96" rot="MR0"/>
 </instance>
@@ -4550,13 +4437,13 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <instance part="CN3" gate="G$1" x="96.52" y="220.98" rot="R90">
 <attribute name="LABEL" x="101.6" y="228.6" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="CN4" gate="G$1" x="307.34" y="228.6">
-<attribute name="LABEL" x="314.96" y="220.98" size="1.778" layer="96" rot="R90"/>
+<instance part="CN4" gate="G$1" x="299.72" y="63.5">
+<attribute name="LABEL" x="307.34" y="55.88" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$3" gate="G$1" x="177.8" y="241.3" smashed="yes" rot="MR0">
-<attribute name="LABEL" x="185.42" y="248.92" size="1.778" layer="96" rot="MR270"/>
-<attribute name="VALUE" x="182.88" y="233.68" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="182.88" y="249.682" size="1.778" layer="95" rot="MR0"/>
+<instance part="U$3" gate="G$1" x="177.8" y="205.74" smashed="yes" rot="MR0">
+<attribute name="LABEL" x="185.42" y="213.36" size="1.778" layer="96" rot="MR270"/>
+<attribute name="VALUE" x="182.88" y="198.12" size="1.778" layer="96" rot="MR0"/>
+<attribute name="NAME" x="182.88" y="214.122" size="1.778" layer="95" rot="MR0"/>
 </instance>
 <instance part="Q1" gate="G$1" x="144.78" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="147.32" y="53.34" size="1.778" layer="95" rot="R270"/>
@@ -4564,51 +4451,51 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <instance part="Q2" gate="G$1" x="104.14" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="106.68" y="53.34" size="1.778" layer="95" rot="R270"/>
 </instance>
-<instance part="Q3" gate="G$1" x="167.64" y="248.92" smashed="yes">
-<attribute name="NAME" x="172.72" y="251.46" size="1.778" layer="95"/>
+<instance part="Q3" gate="G$1" x="167.64" y="213.36" smashed="yes">
+<attribute name="NAME" x="172.72" y="215.9" size="1.778" layer="95"/>
 </instance>
-<instance part="P+1" gate="1" x="233.68" y="264.16"/>
-<instance part="GND3" gate="1" x="281.94" y="238.76"/>
-<instance part="U2" gate="G$1" x="231.14" y="238.76">
-<attribute name="PROD_ID" x="231.14" y="238.76" size="3.81" layer="96" display="off"/>
+<instance part="P+1" gate="1" x="226.06" y="99.06"/>
+<instance part="GND3" gate="1" x="274.32" y="73.66"/>
+<instance part="U2" gate="G$1" x="223.52" y="73.66">
+<attribute name="PROD_ID" x="223.52" y="73.66" size="3.81" layer="96" display="off"/>
 </instance>
-<instance part="C1" gate="G$1" x="203.2" y="246.38" smashed="yes" rot="R90">
-<attribute name="PROD_ID" x="203.2" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPARKLE_ID" x="203.2" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="200.406" y="249.047" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="203.454" y="247.269" size="1.778" layer="96"/>
+<instance part="C1" gate="G$1" x="195.58" y="81.28" smashed="yes" rot="R90">
+<attribute name="PROD_ID" x="195.58" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPARKLE_ID" x="195.58" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="192.786" y="83.947" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="195.834" y="82.169" size="1.778" layer="96"/>
 </instance>
-<instance part="C2" gate="G$1" x="203.2" y="236.22" smashed="yes" rot="R90">
-<attribute name="PROD_ID" x="203.2" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPARKLE_ID" x="203.2" y="236.22" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="200.406" y="238.887" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="202.946" y="237.109" size="1.778" layer="96"/>
+<instance part="C2" gate="G$1" x="195.58" y="71.12" smashed="yes" rot="R90">
+<attribute name="PROD_ID" x="195.58" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPARKLE_ID" x="195.58" y="71.12" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="192.786" y="73.787" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="195.326" y="72.009" size="1.778" layer="96"/>
 </instance>
-<instance part="C3" gate="G$1" x="274.32" y="248.92" smashed="yes" rot="R90">
-<attribute name="PROD_ID" x="274.32" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPARKLE_ID" x="274.32" y="246.38" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="271.018" y="251.333" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="279.654" y="251.333" size="1.778" layer="96" rot="R180"/>
+<instance part="C3" gate="G$1" x="266.7" y="83.82" smashed="yes" rot="R90">
+<attribute name="PROD_ID" x="266.7" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPARKLE_ID" x="266.7" y="81.28" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="263.398" y="86.233" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="272.034" y="86.233" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="C4" gate="G$1" x="271.78" y="243.84" smashed="yes" rot="R90">
-<attribute name="PROD_ID" x="271.78" y="241.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPARKLE_ID" x="271.78" y="241.3" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="268.478" y="242.951" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="276.86" y="242.951" size="1.778" layer="96" rot="R180"/>
+<instance part="C4" gate="G$1" x="264.16" y="78.74" smashed="yes" rot="R90">
+<attribute name="PROD_ID" x="264.16" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPARKLE_ID" x="264.16" y="76.2" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="260.858" y="77.851" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="269.24" y="77.851" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND4" gate="1" x="233.68" y="208.28"/>
-<instance part="C5" gate="G$1" x="274.32" y="261.62" smashed="yes" rot="R90">
-<attribute name="PROD_ID" x="274.32" y="259.08" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="SPARKLE_ID" x="274.32" y="259.08" size="1.778" layer="96" rot="R90" display="off"/>
-<attribute name="NAME" x="271.018" y="264.033" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="279.654" y="264.033" size="1.778" layer="96" rot="R180"/>
+<instance part="GND4" gate="1" x="226.06" y="45.72"/>
+<instance part="C5" gate="G$1" x="266.7" y="96.52" smashed="yes" rot="R90">
+<attribute name="PROD_ID" x="266.7" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="SPARKLE_ID" x="266.7" y="93.98" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="263.398" y="98.933" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="272.034" y="98.933" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="FRAME2" gate="G$2" x="330.2" y="0"/>
-<instance part="GND5" gate="1" x="170.18" y="233.68"/>
+<instance part="FRAME2" gate="G$2" x="210.82" y="5.08"/>
+<instance part="GND5" gate="1" x="170.18" y="198.12"/>
 <instance part="GND6" gate="1" x="119.38" y="60.96" rot="MR180"/>
 <instance part="GND7" gate="1" x="78.74" y="60.96" rot="MR180"/>
-<instance part="GND8" gate="1" x="289.56" y="236.22" rot="R270"/>
+<instance part="GND8" gate="1" x="281.94" y="71.12" rot="R270"/>
 <instance part="P+2" gate="1" x="109.22" y="60.96" rot="MR0"/>
 <instance part="P+4" gate="1" x="149.86" y="60.96" rot="MR0"/>
 <instance part="JP2" gate="G$1" x="259.08" y="160.02" smashed="yes" rot="R180">
@@ -4617,19 +4504,12 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </instance>
 <instance part="GND9" gate="1" x="251.46" y="149.86"/>
 <instance part="SP1" gate="G$1" x="66.04" y="205.74" rot="MR0"/>
-<instance part="U$1" gate="G$1" x="236.22" y="187.96"/>
-<instance part="GND10" gate="1" x="215.9" y="170.18"/>
-<instance part="SJ2" gate="1" x="269.24" y="190.5" rot="R180"/>
-<instance part="C6" gate="G$1" x="287.02" y="190.5" rot="R270"/>
-<instance part="U1" gate="G$1" x="358.14" y="241.3"/>
-<instance part="C7" gate="G$1" x="335.28" y="251.46"/>
-<instance part="C8" gate="G$1" x="335.28" y="238.76"/>
-<instance part="C9" gate="G$1" x="386.08" y="251.46" rot="R90"/>
-<instance part="C10" gate="G$1" x="386.08" y="246.38" rot="R90"/>
-<instance part="C11" gate="G$1" x="393.7" y="256.54"/>
-<instance part="P+3" gate="1" x="360.68" y="264.16"/>
-<instance part="P+5" gate="1" x="215.9" y="200.66"/>
-<instance part="VIN" gate="1" x="167.64" y="256.54" rot="MR0"/>
+<instance part="U$1" gate="G$1" x="236.22" y="129.54"/>
+<instance part="GND10" gate="1" x="215.9" y="111.76"/>
+<instance part="SJ2" gate="1" x="269.24" y="132.08" rot="R180"/>
+<instance part="C6" gate="G$1" x="287.02" y="132.08" rot="R270"/>
+<instance part="P+5" gate="1" x="215.9" y="142.24"/>
+<instance part="VIN" gate="1" x="167.64" y="220.98" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -4652,8 +4532,8 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="S1" gate="S" pin="3"/>
 </segment>
 <segment>
-<wire x1="292.1" y1="190.5" x2="302.26" y2="190.5" width="0.1524" layer="91"/>
-<label x="302.26" y="190.5" size="1.778" layer="95" rot="R180"/>
+<wire x1="292.1" y1="132.08" x2="302.26" y2="132.08" width="0.1524" layer="91"/>
+<label x="302.26" y="132.08" size="1.778" layer="95" rot="R180"/>
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -4665,7 +4545,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="215.9" y1="200.66" x2="215.9" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="142.24" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="P+5" gate="1" pin="VCC"/>
 </segment>
 </net>
@@ -4686,11 +4566,11 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <segment>
 <pinref part="P+1" gate="1" pin="VCC"/>
 <pinref part="U2" gate="G$1" pin="VCC"/>
-<wire x1="233.68" y1="264.16" x2="233.68" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="99.06" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="261.62" x2="233.68" y2="259.08" width="0.1524" layer="91"/>
-<wire x1="269.24" y1="261.62" x2="233.68" y2="261.62" width="0.1524" layer="91"/>
-<junction x="233.68" y="261.62"/>
+<wire x1="226.06" y1="96.52" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="96.52" x2="226.06" y2="96.52" width="0.1524" layer="91"/>
+<junction x="226.06" y="96.52"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="G$1" pin="D"/>
@@ -4701,14 +4581,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="Q1" gate="G$1" pin="D"/>
 <pinref part="P+4" gate="1" pin="VCC"/>
 <wire x1="149.86" y1="60.96" x2="149.86" y2="58.42" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="P+3" gate="1" pin="VCC"/>
-<pinref part="U1" gate="G$1" pin="VCC"/>
-<wire x1="360.68" y1="264.16" x2="360.68" y2="261.62" width="0.1524" layer="91"/>
-<pinref part="C11" gate="G$1" pin="1"/>
-<wire x1="360.68" y1="261.62" x2="393.7" y2="261.62" width="0.1524" layer="91"/>
-<junction x="360.68" y="261.62"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -4757,37 +4629,37 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="U2" gate="G$1" pin="GND"/>
-<wire x1="233.68" y1="210.82" x2="233.68" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="48.26" x2="226.06" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="248.92" x2="281.94" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="248.92" x2="281.94" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="269.24" y1="83.82" x2="274.32" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="83.82" x2="274.32" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="281.94" y1="243.84" x2="274.32" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="78.74" x2="266.7" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="281.94" y1="241.3" x2="281.94" y2="243.84" width="0.1524" layer="91"/>
-<junction x="281.94" y="243.84"/>
+<wire x1="274.32" y1="76.2" x2="274.32" y2="78.74" width="0.1524" layer="91"/>
+<junction x="274.32" y="78.74"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="261.62" x2="281.94" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="281.94" y1="261.62" x2="281.94" y2="248.92" width="0.1524" layer="91"/>
-<junction x="281.94" y="248.92"/>
+<wire x1="269.24" y1="96.52" x2="274.32" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="96.52" x2="274.32" y2="83.82" width="0.1524" layer="91"/>
+<junction x="274.32" y="83.82"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="170.18" y1="238.76" x2="170.18" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="203.2" x2="170.18" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="1"/>
-<wire x1="170.18" y1="238.76" x2="172.72" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="203.2" x2="172.72" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CN4" gate="G$1" pin="2"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="292.1" y1="236.22" x2="294.64" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="71.12" x2="287.02" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="215.9" y1="172.72" x2="215.9" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="114.3" x2="215.9" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
@@ -4821,7 +4693,7 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </segment>
 <segment>
 <pinref part="Q3" gate="G$1" pin="D"/>
-<wire x1="167.64" y1="256.54" x2="167.64" y2="254" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="220.98" x2="167.64" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="VIN" gate="1" pin="VCC"/>
 </segment>
 </net>
@@ -4902,9 +4774,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="JP5" gate="G$1" pin="6"/>
 </segment>
 <segment>
-<label x="208.28" y="193.04" size="1.778" layer="95"/>
+<label x="208.28" y="134.62" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="DIN"/>
-<wire x1="215.9" y1="193.04" x2="208.28" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="134.62" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXD2" class="0">
@@ -4914,9 +4786,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="JP5" gate="G$1" pin="5"/>
 </segment>
 <segment>
-<label x="208.28" y="195.58" size="1.778" layer="95"/>
+<label x="208.28" y="137.16" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="DOUT"/>
-<wire x1="215.9" y1="195.58" x2="208.28" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="137.16" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="TXD1" class="0">
@@ -4926,9 +4798,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="JP5" gate="G$1" pin="4"/>
 </segment>
 <segment>
-<label x="208.534" y="231.394" size="1.778" layer="95"/>
+<label x="200.914" y="66.294" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="T1IN"/>
-<wire x1="208.28" y1="231.14" x2="215.9" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="66.04" x2="208.28" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RXD1" class="0">
@@ -4938,9 +4810,9 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <pinref part="JP5" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<label x="208.534" y="226.314" size="1.778" layer="95"/>
+<label x="200.914" y="61.214" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="R1OUT"/>
-<wire x1="208.28" y1="226.06" x2="215.9" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="60.96" x2="208.28" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -5195,46 +5067,46 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <segment>
 <pinref part="U2" gate="G$1" pin="C2-"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="236.22" x2="205.74" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="71.12" x2="198.12" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C2+" class="0">
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="236.22" x2="193.04" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="236.22" x2="193.04" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="71.12" x2="185.42" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="71.12" x2="185.42" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="C2+"/>
-<wire x1="193.04" y1="241.3" x2="215.9" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="76.2" x2="208.28" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C1-" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="C1-"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="215.9" y1="246.38" x2="205.74" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="81.28" x2="198.12" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="C1+" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="246.38" x2="193.04" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="246.38" x2="193.04" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="81.28" x2="185.42" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="81.28" x2="185.42" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="C1+"/>
-<wire x1="193.04" y1="251.46" x2="215.9" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="86.36" x2="208.28" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="V+"/>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="248.92" x2="269.24" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="83.82" x2="261.62" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V-" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="V-"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="251.46" y1="243.84" x2="266.7" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="78.74" x2="259.08" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN_END_SNS" class="0">
@@ -5250,16 +5122,16 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <pinref part="U$3" gate="G$1" pin="3"/>
-<wire x1="167.64" y1="243.84" x2="172.72" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="167.64" y1="208.28" x2="172.72" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="EN_SOL" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="G"/>
-<label x="149.86" y="248.92" size="1.778" layer="95"/>
+<label x="149.86" y="213.36" size="1.778" layer="95"/>
 <label x="119.38" y="185.42" size="1.778" layer="95" rot="R90"/>
-<wire x1="160.02" y1="248.92" x2="119.38" y2="248.92" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="248.92" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="213.36" x2="119.38" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="213.36" x2="119.38" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -5387,13 +5259,13 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </net>
 <net name="BB_RX" class="0">
 <segment>
-<wire x1="269.24" y1="226.06" x2="251.46" y2="226.06" width="0.1524" layer="91"/>
-<label x="256.54" y="226.06" size="1.778" layer="95"/>
+<wire x1="261.62" y1="60.96" x2="243.84" y2="60.96" width="0.1524" layer="91"/>
+<label x="248.92" y="60.96" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="R1IN"/>
-<label x="271.78" y="228.6" size="1.778" layer="95"/>
-<wire x1="294.64" y1="228.6" x2="269.24" y2="228.6" width="0.1524" layer="91"/>
+<label x="264.16" y="63.5" size="1.778" layer="95"/>
+<wire x1="287.02" y1="63.5" x2="261.62" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="CN4" gate="G$1" pin="5"/>
-<wire x1="269.24" y1="226.06" x2="269.24" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="261.62" y1="60.96" x2="261.62" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="END_SNS1" class="0">
@@ -5438,19 +5310,19 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </net>
 <net name="BB_TX" class="0">
 <segment>
-<label x="256.54" y="231.14" size="1.778" layer="95"/>
+<label x="248.92" y="66.04" size="1.778" layer="95"/>
 <pinref part="U2" gate="G$1" pin="T1OUT"/>
-<label x="271.78" y="231.14" size="1.778" layer="95"/>
-<wire x1="294.64" y1="231.14" x2="251.46" y2="231.14" width="0.1524" layer="91"/>
+<label x="264.16" y="66.04" size="1.778" layer="95"/>
+<wire x1="287.02" y1="66.04" x2="243.84" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="CN4" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="GATE_SNS" class="0">
 <segment>
-<label x="149.86" y="241.3" size="1.778" layer="95"/>
+<label x="149.86" y="205.74" size="1.778" layer="95"/>
 <label x="116.84" y="185.42" size="1.778" layer="95" rot="R90"/>
-<wire x1="172.72" y1="241.3" x2="116.84" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="241.3" x2="116.84" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="205.74" x2="116.84" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="205.74" x2="116.84" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="JP4" gate="G$1" pin="4"/>
 <pinref part="U$3" gate="G$1" pin="2"/>
 </segment>
@@ -5491,73 +5363,17 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </net>
 <net name="DIO3" class="0">
 <segment>
-<wire x1="264.16" y1="190.5" x2="256.54" y2="190.5" width="0.1524" layer="91"/>
-<label x="259.08" y="190.5" size="1.778" layer="95"/>
+<wire x1="264.16" y1="132.08" x2="256.54" y2="132.08" width="0.1524" layer="91"/>
+<label x="259.08" y="132.08" size="1.778" layer="95"/>
 <pinref part="SJ2" gate="1" pin="2"/>
 <pinref part="U$1" gate="G$1" pin="DIO3"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="284.48" y1="190.5" x2="274.32" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="132.08" x2="274.32" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="SJ2" gate="1" pin="1"/>
 <pinref part="C6" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="C1+"/>
-<wire x1="342.9" y1="254" x2="342.9" y2="256.54" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="342.9" y1="256.54" x2="335.28" y2="256.54" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="U1" gate="G$1" pin="C1-"/>
-<wire x1="335.28" y1="248.92" x2="342.9" y2="248.92" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="C8" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="C2+"/>
-<wire x1="335.28" y1="243.84" x2="342.9" y2="243.84" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="335.28" y1="236.22" x2="342.9" y2="236.22" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="C2-"/>
-<wire x1="342.9" y1="236.22" x2="342.9" y2="238.76" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="C11" gate="G$1" pin="2"/>
-<wire x1="393.7" y1="254" x2="393.7" y2="251.46" width="0.1524" layer="91"/>
-<pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="393.7" y1="251.46" x2="393.7" y2="246.38" width="0.1524" layer="91"/>
-<wire x1="393.7" y1="246.38" x2="388.62" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="388.62" y1="251.46" x2="393.7" y2="251.46" width="0.1524" layer="91"/>
-<junction x="393.7" y="251.46"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="C10" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="V-"/>
-<wire x1="381" y1="246.38" x2="378.46" y2="246.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="V+"/>
-<pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="378.46" y1="251.46" x2="381" y2="251.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
